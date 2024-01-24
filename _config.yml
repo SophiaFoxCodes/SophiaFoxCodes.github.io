@@ -1,3 +1,13 @@
-remote_theme: pages-themes/midnight@v0.2.0
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/midnight
+#theme: midnight
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# Site Info
+title: Homepage of Sophia Fox
+description: The profile and linktree for Sophia Fox in Las Vegas, NV
